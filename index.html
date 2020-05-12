@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songsterr Search</title>
+    <link href="songsterr.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+    <h1>Songsterr API Project:</h1>
+    <h2>Search for Songs by Artist</h2>
+    </header>
+    <div class="body">
+        <div class="controls">
+          <!--Search Form-->
+          <form>
+            <p>
+              <label for="search">Enter ARTIST(required): </label>
+              <input type="text" id="search" class="search" required>
+            </p>
+            <p>For best results, please enter your artist's name in quotes. For example: "My Morning Jacket"</p>
+            <p>
+              <button class="submit">List My Songs</button>
+            </p>
+          </form>
+        </div>
+        <!--Results Section-->
+        <div class="results">
+          <section>
+              <ul>
+                 <!--Results From Request-->
+              </ul>
+          </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="songsterr.js"></script>
+</body>
+</html>

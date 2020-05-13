@@ -5,7 +5,7 @@ header {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
-    background-color: #d6adad;
+    background-color: #bb5151;
     color: black;
     z-index: 1;
 }
@@ -27,6 +27,7 @@ button {
     height: 50px;
     font-size: 18px;
     border-radius: 15px;
+    background-color: #bb5151;
 }
 .results {
     float: left;

@@ -1,4 +1,4 @@
-const baseURL = ('http://www.songsterr.com/a/ra/songs/byartists.json');
+const baseURL = ('https://www.songsterr.com/a/ra/songs/byartists.json');
 let url;
 //search form--referencing our DOM elements
 const searchArtist = document.querySelector('.search');
